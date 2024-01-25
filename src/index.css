@@ -1,0 +1,278 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  body::after {
+    content: "";
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 12px;
+    background: #fff; 
+  }
+  .container {
+    overflow: hidden;
+  }
+.banner{
+    /* background-color: #fff5f5; */
+    height: 600px;
+}
+.full-width-image {
+    background-image: url("https://dici.themes.zone/simple/wp-content/uploads/sites/4/revslider/main/dici_banner_1_opt.jpg");
+    background-size: cover;
+    /* background-position: left top; */
+    background-repeat: no-repeat;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.py-50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.banner h3{
+    font-family: "Roboto Slab";
+}
+.banner h2{
+    font-family: "Buttler";
+    text-transform: uppercase;
+    font-size: 50px;
+}
+.banner p {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-family: "open sans";
+}
+.banner button{
+    padding: 15px 27px 14px;
+}
+.banner-img img{
+    margin-left: 15px;
+}
+button{
+    background-color: black;
+}
+button:hover{
+    background-color: rgb(139, 253, 215);
+}
+.box{
+    position: relative;
+    overflow: hidden;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Buttler";
+}
+.service-img:hover img{
+    transform: scale3d(1.07, 1.07, 1);
+    transition: transform 0.35s ease;
+}
+.service-content{
+    line-height: 1.5px;
+    position: absolute;
+    z-index: 1;
+    top: 30px;
+    left: 25px;
+}
+.service-content h3{
+    line-height: 1.5;
+}
+.service-content .title{
+    margin-bottom: 100px;
+}
+.service-content .service-button{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 0px 0px 4px 0px;
+}
+.service-button{
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+.shop-title{
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.shopi-team::after{
+    width: 108px;
+    height: 15px;
+    display: block;
+    content: "";
+    background: url(assets/p-1.png) no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 150%;
+    left: 51%;
+    transform: translateX(-51%);
+}
+.shop-content{
+    position: relative;
+}
+.product {
+    font-size: 12px;
+    color: #888686;
+}
+.product h5{
+    font-size: 14px;
+    font-weight: 700;
+}
+.product .price h3{
+    color: #00a28e;
+    font-size: 15px;
+}
+.box-1{
+    position: relative;
+}
+.box-1:before {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100%);
+    height: calc(100%);
+    content: "";
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0);
+    transition: opacity 0s ease-in;
+}
+.box-1:hover:before {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.08);
+    transition: box-shadow 400ms ease-in;
+}
+.box-1 button{
+    padding: 10px 30px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s ease-in;
+}
+.box-1:hover button{
+    opacity: 1;
+    visibility: visible;
+}
+.hideImg{
+    opacity: 0;
+    visibility: hidden;
+}
+.box-1:hover .hideImg{
+    opacity: 1;
+    visibility: visible;
+    transition: all .3s ease-in;
+}
+.blog-content{
+    padding: 0px 0px 10px 0px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ebebeb;
+}
+.blog-content h5{
+    margin: 0px;
+}
+.Blog-list li{
+    padding: 8px 0px;
+}
+.blog-img img{
+    margin: 0px 15px 0px 0px;
+}
+.blog-name{
+    font-size: 15px;
+    font-weight: 500;
+}
+.bdi{
+    font-size: 15px;
+    font-weight: 400;
+}
+.contact{
+    background-color: #028777;
+}
+.contact-tilte{
+    text-align: right;
+}
+.contact-tilte p{
+    font-size: 13px;
+}
+.contact-input{
+    background-color: #23b6a5;
+}
+.input-sy{
+    margin-left: 30px;
+}
+.contact .tool{
+    margin-left: 60px;
+}
+.form-control{
+    width: 304px;
+    height: 40px;
+    border-radius: 36px;
+}
+.side{
+    padding: 10px 27px;
+}
+.footer{
+    padding: 16px 0px 16px 0px;
+}
+.logo-title h2{
+    font-family: "Butler";
+    font-size: 32px;
+    margin: 0px;
+}
+.logo-title p{
+    font-size: 13px;
+}
+.text-title h2{
+    margin: 20px 0px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.text-title li a{
+    font-size: 13px;
+    font-weight: 500;
+}
+.text-title li{
+    margin: 10px 0px;
+}
+.site-footer{
+    border-top: 1px solid #e1e1e1;
+}
+.About{
+    padding: 10px;
+}
+.about-content h1{
+    font-size: 32px;
+}
+.About-para p{
+    color: #696969;
+    font-size: 15px;
+}
+.testimonial{
+    padding: 70px 0px 70px 0px;
+}
+.testimonial p {
+    color: #696969;
+    font-size: 16px;
+}
+.gallery-img{
+    padding: 12px 0px;
+}
+.gallery-img img{
+    filter: grayscale(1);
+    transition: filter 400ms ease-in;
+}
+.gallery-img img:hover{
+    filter: grayscale(0);
+}
